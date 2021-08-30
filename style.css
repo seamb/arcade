@@ -1,0 +1,71 @@
+* {
+  background-color: rgb(199, 190, 179);
+  font-size: 12px;
+  font-family: "Comfortaa", cursive;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  padding: 30px;
+  margin: auto;
+
+  color: lightgray;
+}
+.startBut {
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: lightgrey;
+  border-radius: 50pt;
+  border: none;
+  color: rgb(199, 190, 179);
+  height: 60px;
+  margin: 30px;
+}
+.instructions {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.startGame {
+  padding: 5px;
+  margin: auto;
+  margin-top: 5px;
+  align-content: center;
+  justify-self: auto;
+}
+.titles {
+  display: flex;
+  text-decoration: underline;
+}
+
+.playerStats {
+  display: flex;
+  font-size: larger;
+}
+.gameContainer {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  width: 306px;
+  margin: 50px auto;
+  background-color: lightgray;
+  width: 306px;
+  margin: 50px auto;
+  grid-gap: 5px;
+}
+.square {
+  width: 100px;
+  height: 100px;
+}
+.exes {
+  color: red;
+  font-size: 65pt;
+  text-align: center;
+}
+.ohs {
+  color: navy;
+  font-size: 65pt;
+  text-align: center;
+  justify-content: center;
+}

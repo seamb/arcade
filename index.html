@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Biryani:wght@300&family=Comfortaa:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Tic Tac Toe!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Tic Tac Toe!</h1>
+
+    <p class="instructions">
+      Take turns and make your mark. First to get 3 in a row WINS
+    </p>
+
+    <input
+      type="button"
+      class="startBut"
+      value="START NEW GAME"
+      onclick="getPlayer();"
+    />
+    <div class="titles">
+      <span><strong>X</strong></span>
+      <span><strong>O</strong></span>
+    </div>
+    <div class="currentTurn">Current Player is X</div>
+    <div class="playerStats">
+      <div id="playerOne">Player One</div>
+      <div id="playerTwo">Player Two</div>
+    </div>
+
+    <div class="gameContainer">
+      <div data-cell-index="0" class="square"></div>
+      <div data-cell-index="1" class="square"></div>
+      <div data-cell-index="2" class="square"></div>
+      <div data-cell-index="3" class="square"></div>
+      <div data-cell-index="4" class="square"></div>
+      <div data-cell-index="5" class="square"></div>
+      <div data-cell-index="6" class="square"></div>
+      <div data-cell-index="7" class="square"></div>
+      <div data-cell-index="8" class="square"></div>
+    </div>
+
+    <script type="text/javascript" src="/app.js"></script>
+  </body>
+</html>
